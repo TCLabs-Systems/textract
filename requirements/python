@@ -6,7 +6,7 @@ beautifulsoup4~=4.13.4 # was 4.8.0
 chardet==3.*
 docx2txt~=0.8
 extract-msg~=0.54.1 # Was <=0.29.0
-pdfminer.six==20191110 #Last with python2 support
+pdfminer.six==20251230 # Fixes CVE-2025-64512 and CVE-2025-70559 (unsafe pickle load in CMapDB)
 python-pptx~=0.6.18
 six~=1.12.0
 SpeechRecognition~=3.8.1
